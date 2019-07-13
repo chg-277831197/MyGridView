@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         init();
         setClickListener();
     }
-
+    //设计监听
     private void setClickListener() {
         handler_button.setOnClickListener(this);
         static_handler_button.setOnClickListener(this);
