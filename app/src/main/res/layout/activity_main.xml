@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/handler_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Handler演示代码"/>
+    <Button
+        android:id="@+id/static_handler_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="静态Handler演示代码"/>
+    <Button
+        android:id="@+id/activity_xml_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Android解析"/>
+    <Button
+        android:id="@+id/activity_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SERVICE生命周期演示"/>
+    <Button
+        android:id="@+id/http_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络请求"/>
+    <Button
+        android:id="@+id/sqlite_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据库"/>
+</LinearLayout>
