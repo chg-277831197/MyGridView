@@ -43,11 +43,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         sqlite_button = findViewById(R.id.sqlite_button);
     }
 
-//    @Override
-//    public void onBackPressed() {
-//        this.finish();
-//        System.exit(0);
-//    }
+    @Override
+    public void onBackPressed() {
+        this.finish();
+        System.exit(0);
+    }
 
     @Override
     public void onClick(View v) {
